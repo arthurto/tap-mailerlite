@@ -1,0 +1,2 @@
+id,email,status,source,sent,opens_count,open_rate,ip_address,subscribed_at,unsubscribed_at,created_at,updated_at,fields__name,fields__last_name,fields__company,fields__country,fields__city,fields__phone,fields__state,fields__z_i_p,opted_in_at
+53661185270088739,arthur.ps22009@gmail.com,active,manual,1,0,0,,2022-04-28 19:48:14,,2022-04-28 19:48:14,2022-04-30 00:28:12,arthur pasqualotto,,,,,,,,

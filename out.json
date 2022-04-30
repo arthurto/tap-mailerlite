@@ -1,0 +1,15 @@
+
+  PermissionError
+
+  [Errno 13] Permission denied: b'/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/tap_mailerlite'
+
+  at /usr/lib/python3.8/os.py:601 in _execvpe
+       597│         path_list = map(fsencode, path_list)
+       598│     for dir in path_list:
+       599│         fullname = path.join(dir, file)
+       600│         try:
+    →  601│             exec_func(fullname, *argrest)
+       602│         except (FileNotFoundError, NotADirectoryError) as e:
+       603│             last_exc = e
+       604│         except OSError as e:
+       605│             last_exc = e
